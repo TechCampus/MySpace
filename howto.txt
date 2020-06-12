@@ -10,4 +10,4 @@ create database myspace;
 CREATE USER 'yaser'@'localhost' IDENTIFIED BY '83645GSFtgFF@42';
 GRANT ALL PRIVILEGES ON *.* TO 'yaser'@'localhost';
 exit
-mysql myspace < /var/www/html/myspace.sql
+mysql myspace < /var/www/html/MySpace/myspace.sql
