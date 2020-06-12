@@ -1,0 +1,13 @@
+ * ============================================================================
+ *                                       🤓
+ *              Copyright (c) 12/06/2020 - TechCampus All Rights Reserved
+ *                    www.TechCampus.com - Support@TechCampus.com
+ * ============================================================================
+ssh root@XXXXXXXX
+cat .digitalocean_password
+mysql -p -u root
+create database myspace;
+CREATE USER 'yaser'@'localhost' IDENTIFIED BY '83645GSFtgFF@42';
+GRANT ALL PRIVILEGES ON *.* TO 'yaser'@'localhost';
+exit
+mysql myspace < /var/www/html/myspace.sql

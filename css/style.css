@@ -1,0 +1,620 @@
+body{
+	font-size:16px;
+    background-color: #fff;
+}
+p,label{
+	color:#333;
+	font-size:14px;
+}
+h1,h2,h3,h4,h5,h6{
+	color:#000;
+}
+nav{
+	-webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+}
+.hdrnav{
+    margin-bottom: 0;
+    background-color: #207ed9;
+    z-index: 9;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+    -ms-transition:     all 0.3s ease-out;
+    -moz-transition:    all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition:      all 0.3s ease-out;
+    transition:         all 0.3s ease-out;
+}
+.hdrnav1{
+    margin-bottom: 0;
+    background-color: #207ed9;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+    -ms-transition:     all 0.3s ease-out;
+    -moz-transition:    all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition:      all 0.3s ease-out;
+    transition:         all 0.3s ease-out;
+}
+.hdrnav1 .navbar-brand {
+    float: none !important;
+    margin: 0 auto !important;
+}
+.logintit{
+    text-align: center;
+}
+html[data-dir="rtl"] .hdrnav{
+    direction: rtl;
+}
+.hdrnavlist {
+    float: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+}
+html[data-dir="rtl"] .hdrnavlist {
+    float: none;
+    direction: rtl;
+}
+.hdrnavlist li{
+	float: none;
+    position: relative;
+    display: inline-block;
+}
+.hdrnavlist>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    line-height: 20px;
+}
+.hdrnavlist>li>a>span {
+    cursor: pointer;
+}
+.navbar li a, .navbar .navbar-brand {
+	color: #56575b;
+    font-weight: normal; 
+    font-size: 18px; 
+    letter-spacing: normal;
+    cursor: default;
+}
+.navbar-brand {
+    padding: 0;
+    height: auto;
+}
+.navbar li.active a,.bluetit{
+	color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    border: 0;
+}
+.navbar-brand:after,.navbar-brand:before {    
+    content: '';
+    display: table;
+}
+.navbar-brand:after{
+	clear: both;
+}
+.navbar-brand img {
+    max-width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 0 15px;
+    margin: 0 auto;
+}
+.hdrnav1 .navbar-brand img {
+    max-width: 200px;
+}
+.complogo-txt {
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+    color: #333;
+    margin-bottom: 0;
+    padding: 25px 5px 0;
+}
+.complogo-txt span{
+	font-weight: bold;
+	 color: #000;
+}
+#collapsibleNavbar {
+    float: none;
+    margin: 55px auto 10px;
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+	#collapsibleNavbar {
+		display: block !important;
+	}
+	.navbar-toggle{
+		display: none !important;
+	}
+}
+.onscroll {
+    position: fixed;
+    width: 100%;
+    -ms-transition:     all 0.3s ease-out;
+    -moz-transition:    all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition:      all 0.3s ease-out;
+    transition:         all 0.3s ease-out;
+}
+.navbar-nav{
+	list-style: none;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none !important;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #666;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+.collapse{
+	display: none;
+}
+.collapse.show {
+    display: block;
+}
+.logsec{
+    margin: 55px auto 0;
+    text-align: center;
+}
+.logutbtn{
+    height: 40px;
+    border-radius: 8px !important;
+    padding: 0 16px !important;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    font-weight: 500;
+    cursor: pointer;
+    color: #53555a !important;
+    -webkit-transition: 0.1s linear;
+    transition: 0.1s linear;
+    position: relative;
+    font-size: 20px;
+    outline: none;
+    border: 0;
+    background-color: #141519;
+}
+.logutbtn:hover{
+    text-decoration: none;
+}
+.btncss{
+    height: 40px;
+    border-radius: 3px !important;
+    padding: 0 16px !important;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    font-weight: 500;
+    cursor: pointer;
+    color: #000 !important;
+    position: relative;
+    font-size: 20px;
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    margin: 42px auto;
+}
+.btncss:hover{
+    text-decoration: none;
+}
+.logocenter{
+    width: 100%;
+}
+.lblupload {
+    background: #fff;
+    color: #000;
+    padding: 8px 15px;
+    margin: 42px auto 0;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.moblogout{
+    display: none;
+}
+.hdrnavlist>li.active>a:after {
+    content: '\f111';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 10px;
+    line-height: 0em;
+    border-radius: 100%;
+    color: #ff0000;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+}
+.member-tb thead tr th{
+      color: #333;
+    }
+    .member-tb tbody tr td{
+      color: #737182;
+    }
+    .member-tb {
+    background-color: #fff;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 100%;
+    }
+.member-tb thead tr th:first-child, .member-tb tbody tr td:first-child {
+    padding-left: 15px;
+    width: 70%;
+}
+.member-tb thead tr th:last-child, .member-tb tbody tr td:last-child {
+    width: 20px;
+    text-align: right;
+}
+.member-tb thead tr th {
+    padding: 13px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+    width: 150px;
+    border-top: 1px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+}
+.member-tb tbody tr td {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 10px 10px;
+    text-align: left;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: auto;
+    border-bottom: 1px solid #f6f6f6;
+    vertical-align: middle;
+}
+.closerow p {
+    cursor: pointer;
+    font-size: 16px;
+}
+#changepasswordmdl .modal-content{
+  max-width: 90%;
+  margin: auto;
+  margin-top: 120px;
+  box-shadow: unset;
+    border: 1px solid #eee;
+}
+#changepasswordmdl .modal-content .modal-body{
+  text-align: center;
+}
+#changepasswordmdl .modal-content .modal-body p{
+  font-size: 20px;
+  margin: 5px auto 30px auto;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+#changepasswordmdl .modal-content .modal-body p strong{
+  display: block;
+}
+#changepasswordmdl .modal-content .modal-body .btnsec{
+margin: 30px auto 15px auto !important;
+}
+.topspace{
+    margin: 25px auto;
+}
+.warningmaintit{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  .mdlbtncss{
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background-color: #207ed9;
+    color: #fff;
+  }
+.twit_tit{
+    font-size: 22px;
+    color: #56575b;
+    margin: 25px 0;
+}
+.twitterbox{
+    background-color: #000000;
+    margin: 45px auto;
+    max-width: 75%;
+}
+.twitterbox1{
+    background-color: #fff;
+    margin: 45px auto;
+    max-width: 55%;
+}
+.profilebox{
+   background-color: transparent;
+    margin: 45px auto;
+    max-width: 75%; 
+}
+.sendblock {
+    padding: 15px;
+    border-bottom: 1px solid rgba(83, 85, 90, 0.48);
+    height: 90px;
+}
+.box1 {
+    width: 12%;
+    float: left;
+    padding: 0 15px;
+}
+.box3 {
+    width: 12%;
+    float: left;
+    padding: 0 15px;
+    direction: rtl;
+}
+.box2{
+    width: 76%;
+    float: left;
+    padding: 0 15px;
+}
+.sendblock:before,.sendblock:after{
+    display: table;
+    content: '';
+}
+.sendblock:after{
+    clear:both;
+}
+.userimg{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+.alienimg{
+    width: auto;
+    height: 35px;
+    margin: 8px 0 0;
+}
+.msgarea{
+    border: 0;
+    outline: none;
+    background-color: transparent;
+}
+.msgarea {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    padding: 6px 0;
+    font-size: 15px;
+    color: #fff;
+    resize: none;
+}
+.msgarea::placeholder{
+    color: #fff;
+}
+.attchblk {
+    padding: 15px;
+}
+.imgsec,.moresec {
+    display: inline-block;
+    float: left;
+    padding: 0 15px;
+    height: 55px;
+}
+.tweetbtnsec{
+    display: inline-block;
+    float: right;
+    padding: 0 15px;
+    height: 55px;
+}
+.attchblk:before,.attchblk:after{
+    display: table;
+    content: '';
+}
+.attchblk:after{
+    clear:both;
+}
+.uploadlbl{
+    background-color: #191919;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.uploadlbl img{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+.uptxt {
+    display: inline-block;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+    padding: 5px 5px;
+    font-size: 16px;
+}
+.moreval{
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+    background-color: #191919;
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-size: 22px;
+}
+.tweetbtn{
+    height: 50px;
+    border-radius: 25px !important;
+    padding: 0 25px;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff !important;
+    -webkit-transition: 0.1s linear;
+    transition: 0.1s linear;
+    position: relative;
+    font-size: 14px;
+    outline: none;
+    border: 0;
+    background-color: #191919;
+}
+.tweetbtnsec1{
+    display: block;
+    padding: 0 15px;
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+}
+.loginbox{
+    padding: 15px 45px;
+}
+.signblk {
+    margin: 55px auto 25px;
+}
+.lbltit {
+    width: 100%;
+    text-align: left;
+}
+.inputcontrol {
+    border: 0px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    margin-bottom: 5px;
+    height: 40px;
+    background-color: transparent;
+}
+.btnsec {
+    margin: 35px auto 15px;
+}
+.logbtn {
+    background-color: #207ed9;
+    color: #fff !important;
+    border-radius: 25px;
+    padding: 10px 35px;
+    outline: none !important;   
+    border: 0; 
+}
+.blkbg {
+    background-image: url(https://i.pinimg.com/originals/26/2b/58/262b582a892631e91dbc6e8fd1b018db.jpg);
+    background-position: 0 50%;
+    background-size: 100% auto;
+    border-bottom: 1px solid #000;
+    border-radius: 4px 4px 0 0;
+    height: 225px;
+    width: 100%;
+}
+.twPcblock {
+    display: block !important;
+}
+.twPcavatarLink {
+    background-color: #141519;
+    display: flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    float: left;
+    margin: -115px 0px 0;
+    max-width: 100%;
+    padding: 1px;
+    vertical-align: bottom;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.profilebio p{
+    font-size: 16px;
+}
+.twPcImg {
+    border: 2px solid transparent;
+    border-radius: 0;
+    box-sizing: border-box;
+    height: 72px;
+    width: 72px;
+    margin: 0 auto;
+}
+.twPcImgg{
+    border: 2px solid transparent;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 72px;
+    margin: 0 auto;
+    color: #fff;
+}
+.profilebio{
+    /*clear: both;*/
+}
+.useridbox {
+    margin: 5px auto 35px;
+}
+.clrtxt{
+    color: rgb(29, 161, 242);
+}
+.profilebio b{
+    font-size: 18px;
+}
+.profilebio {
+    /* clear: both; */
+    margin-top: 140px;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.footersec {
+    background-color: #fff;
+    padding: 20px 0;
+}
+.footersec p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #207ed9;
+    font-weight: bold;
+}
+.footersec h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 4px;
+    color: #777;
+}
+.compname {
+    color: #fff;
+    margin: 0 0 18px;
+}

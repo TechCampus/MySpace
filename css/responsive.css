@@ -1,0 +1,64 @@
+@media only screen and (max-width: 767px) {
+	.hdrnavlist li{
+		display: block;
+	}
+	html[data-dir="rtl"] .hdrnavlist li{
+		text-align: left;
+	}
+	.navbar-brand img,.complogo-txt{
+		padding-top: 0px;
+	}
+	.hidden-xs{
+		display: none !important;
+	}
+	.logsec {
+    margin: 15px auto 0 !important;
+    padding: 0 15px !important;
+	}
+	.moblogout{
+		display: inline-block !important;
+	}
+	.twitterbox,.twitterbox1,.profilebox{
+		max-width: 100%; 
+	}
+	.box1,.box3 {
+    width: 20% !important;
+    padding: 0 8px !important;
+	}
+	.box2 {
+    width: 60% !important;
+    padding: 0 8px !important;
+	}
+	.imgsec, .moresec,.tweetbtnsec{
+		padding: 0 5px !important;
+	}
+	.moreval{
+		padding: 10px 25px !important;
+	}
+	.tweetbtn{
+		padding: 0 15px !important;
+	}
+	.btncss{
+		margin: 42px auto 0 !important;
+	}
+	.logoutbtn.btncss {
+    	margin: 7px auto !important;
+	}
+	.compname{
+		font-size: 20px !important;
+	}
+	.logocenter {
+    margin-top: 12px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1115px) {
+	.hdrnavlist>li>a{
+		padding: 10px 12px !important;
+	}
+	.twitterbox,.profilebox{
+		width: 85% !important;
+	}
+	.twitterbox1{
+		width: 65% !important;
+	}
+}
